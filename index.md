@@ -26,4 +26,6 @@ Love adventures and maths.
   
 ### Skills
 
+![](images/IMG-20211112-WA0027 (1).jpg)
+
 My ig handle [Shubham Lole](https://www.instagram.com/shubham_prakash_lole/)
