@@ -1,5 +1,7 @@
 # Shubham Lole
 
+![](images/IMG-20211112-WA0027 (1).jpg)
+
 ### About Me
 A typical indian brought up in Pune, India.
 Always ready to learn new things.
@@ -25,7 +27,7 @@ Love adventures and maths.
   Specialization in Statistics.
   
 ### Skills
+- General
 
-![](images/IMG-20211112-WA0027 (1).jpg)
 
 My ig handle [Shubham Lole](https://www.instagram.com/shubham_prakash_lole/)
