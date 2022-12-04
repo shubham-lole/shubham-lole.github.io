@@ -1,7 +1,5 @@
 # Shubham Lole
 
-![](images/IMG-20211112-WA0027 (1).jpg)
-
 ### About Me
 A typical indian brought up in Pune, India.
 Always ready to learn new things.
