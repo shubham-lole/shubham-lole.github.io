@@ -149,17 +149,20 @@ color: rgb(255, 255, 255);
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 1.5rem;
-    
+    margin-top: 20px;
     margin-right: 50px;
 }
 .about-img img {
     /* padding-bottom: 20%; */
-    max-width: 630px;
+    
+    max-width: 550px;
+    max-height: 550px;
     height: auto;
     /* height: 100%; */
     width: 100%;
     border-radius: 50%;
-    margin-left: 50x;
+    padding: 100px;
+    /* margin-right: 100x; */
 }
 .about-text h2{
     font-size: 60px;
@@ -181,11 +184,82 @@ color: rgb(255, 255, 255);
     margin-bottom: 4rem;
 }
 
-
-
-
-
-
+#project {
+    color: rgb(255, 212, 160);
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+.sub-title {
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 70px ;
+}
+.sub-title span {
+    color: orange;
+}
+.container {
+    padding: 90px;
+}
+.project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.project-list div {
+    background-color: transparent;
+    padding: 40px;
+    font-weight: 13px;
+    border-right: 10px;
+    border-radius: 20px;
+    transition: background 0.5s, transform 0.5s;
+    box-shadow: 1px 1px 5px rgb(255, 246, 220),
+    1px 1px 10px rgb(255, 246, 220);
+}
+.project-list div i {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.project-list div h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.project-list div a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.read {
+    
+    margin-left: 10px;
+    display: inline-block;
+    padding: 12px 28px;
+    background: lightblue;
+    border-radius: 40px;
+    font-size: 16px;
+    color: brown;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
+    /* box-shadow: 0 0 5px cyan,
+    0 0 10px cyan; */
+}
+.read:hover {
+    box-shadow: 0 0 2px cyan,
+            0 0 5px cyan, 0 0 8px cyan,
+            0 0 10px cyan, 0 0 12px cyan;
+     
+}
+.project-list div:hover {
+    transform: translateY(-10px);
+}
 
 
 
